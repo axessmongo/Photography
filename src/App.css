@@ -4,8 +4,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Josefin+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Josefin+Sans&family=Raleway:ital,wght@1,300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Helvetica,Arial,Lucida,sans-serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 
 
 
@@ -30,16 +31,13 @@
   font-weight: 500;
   line-height: 2;
   font-size: 14px;
-  word-spacing: 8px;
+  word-spacing: 10px;
 }
 
 
 .heading3 {
   font-family: 'Josefin Sans', sans-serif;
   letter-spacing: .2px;
-
-  /* font-weight: 200; */
-
   line-height: 2;
   font-size: 15px;
   word-spacing: 8px;
@@ -50,7 +48,7 @@
   letter-spacing: .2px;
   font-weight: 500;
   line-height: 2;
-  font-size: 17px;
+  font-size: 20px;
   word-spacing: 8px;
 }
 
@@ -61,7 +59,7 @@
   letter-spacing: .2px;
   font-weight: 600;
   line-height: 2;
-  font-size: 24px;
+  font-size: 23px;
   word-spacing: 8
 }
 
@@ -102,6 +100,32 @@
   line-height: 1.4;
   font-size: 20px;
   word-spacing: 8px;
+}
+
+.heading10 {
+  font-family: 'Cormorant Garamond', Georgia, "Times New Roman", serif;
+  font-size: 46px;
+  font-weight: 500;
+  line-height: 1.4;
+  word-spacing: 8px;
+
+}
+
+.heading11 {
+  font-family: 'Cormorant Garamond', Georgia, "Times New Roman", serif;
+  font-size: 46px;
+  /* font-weight: 500; */
+  line-height: 1.4;
+  word-spacing: 8px;
+
+}
+
+
+.heading12 {
+  font-family: 'Cormorant Garamond', Georgia, "Times New Roman", serif;
+  font-size: 29px ;
+  line-height: 1.5em
+
 }
 
 .home-nav {
@@ -173,7 +197,7 @@
 
 .text2 h6 {
   font-family: 'Sacramento', handwriting;
-  font-size: 40px;
+  font-size: 45px;
 }
 
 .text-2 {
@@ -187,6 +211,7 @@
   color: #ecd5c5 !important;
   letter-spacing: 12px;
   line-height: 1.8em;
+
 }
 
 /* .text-2 h3 {
@@ -198,11 +223,44 @@
   background-image: linear-gradient(180deg, rgba(242, 227, 222, 0.24) 100%, #ffffff 100%) !important;
 }
 
+/* .bg-3 {
+  background-size: initial;
+  background-repeat: repeat;
+  background-position: left top;
+  background-image: url(https://www.ashokarsh.com/wp-content/uploads/2022/06/divider.png), linear-gradient(90deg, rgba(240, 237, 238, 0) 75%, #F9F6F5 75%) !important;
+  margin: 90px;
+
+} */
+
+.bg-5{
+  background-image: linear-gradient(180deg,#ffffff 0%,#f7bc35 100%);
+  padding: 50px 0;
+  
+  position: relative;
+  background-color: #fff;
+  background-position: 50%;
+  background-size: 100%;
+  background-size: cover;
+}
+
+
+
+.bg-6 {
+
+  border: 2px solid #c4beb9;
+  padding: 130px 40px 130px 40px;
+
+
+}
+
+
+
+
 .btn1:hover {
   background-color: #ecd5c5;
 }
 
-.btn1{
+.btn1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -222,4 +280,8 @@
   width: auto;
   opacity: 1;
   padding-left: 10px;
+}
+
+.disp {
+  display: contents;
 }
