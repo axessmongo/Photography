@@ -1,10 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import logo1 from '../assets/image/logo1.png'
 import img2 from '../assets/image/img2.jpeg'
 import wedding from '../Assets/image/wedding.jpeg'
 import engagement from '../Assets/image/engagement.jpeg'
-
 import marriage1 from '../Assets/image/marriage-img-1.jpg'
 import marriage2 from '../Assets/image/marriage-img-2.jpg'
 import marriage3 from '../Assets/image/marriage-img-3.jpeg'
@@ -25,6 +24,7 @@ import demo from '../assets/image/demo1.jpeg'
 
 
 export default function Home() {
+  const [active, setActive] = useState(false)
   let gotoTop = (secID) => {
     const element = document.getElementById(secID);
     const navbarElement = document.querySelector('.navbar');
@@ -57,11 +57,12 @@ export default function Home() {
     <div className='overflow-x-hidden'>
       <section>
         {/* navbar starts */}
-        <div>
+        <div id='home'>
           <nav className="navbar navbar-expand-lg nav-banner  p-0 z-3" style={{ backgroundColor: '#060525' }}>
             <div className="container-fluid">
-              <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
-                <span className="navbar-toggler-icon"></span>
+              <button className="navbar-toggler shadow-none" onClick={() => setActive(!active)}
+                type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+                <i className={`bi ${active ? "bi-x" : "bi-list"}`}></i>
               </button>
               <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav mx-auto mb-3 p-2 mb-lg-0 text-center">
@@ -247,12 +248,12 @@ export default function Home() {
                   <img src={logo1} alt="" className='img-fluid w-50' />
                 </div> */}
               </div>
-              <div className='col-md-3 text-center text-light heading7'>
+              <div className='col-md-3 text-center text-light heading4 foot'>
                 <h3 style={{ color: ' #f7bc35' }}>Let's Talk</h3>
                 <p>xxx@gmail.com</p>
                 <p>xxxxx</p>
               </div>
-              <div className='col-md-3 text-center text-light heading7'>
+              <div className='col-md-3 text-center text-light heading4 foot'>
                 <h3 className='pb-2' style={{ color: ' #f7bc35' }}>Quick Link</h3>
                 <p> Wedding</p>
                 <p>Pre-wedding Shoot</p>

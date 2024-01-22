@@ -125,12 +125,11 @@
 
 .heading12 {
   font-family: 'Cormorant Garamond', Georgia, "Times New Roman", serif;
-  font-size: 29px ;
+  font-size: 29px;
   line-height: 1.5em
-
 }
 
-#home{
+#home {
   position: fixed;
   width: 100%;
   top: 0;
@@ -235,10 +234,10 @@
 
 } */
 
-.bg-5{
-  background-image: linear-gradient(180deg,#ffffff 0%,#f7bc35 100%);
+.bg-5 {
+  background-image: linear-gradient(180deg, #ffffff 0%, #f7bc35 100%);
   padding: 50px 0;
-  
+
   position: relative;
   background-color: #fff;
   background-position: 50%;
@@ -288,81 +287,115 @@
 .disp {
   display: contents;
 }
-.img3{
- 
-    border: 20px solid white;
-    box-shadow: 1px 1px 9px 4px #e7e7e7;
+
+.img3 {
+
+  border: 20px solid white;
+  box-shadow: 1px 1px 9px 4px #e7e7e7;
 
 }
-.heading0{
-  font-family: 'Playfair Display SC',Georgia,"Times New Roman",serif;
+
+.heading0 {
+  font-family: 'Playfair Display SC', Georgia, "Times New Roman", serif;
   letter-spacing: .2px;
-  
+
   line-height: 2;
   font-size: 42px;
   word-spacing: 8px;
 }
-.back-logo{
+
+.back-logo {
   background: url('./assets/image/back-logo2.avif');
   background-repeat: no-repeat;
   background-size: cover;
 }
-.marriage-bg{
-    background-image: url(./Assets/image/marriage-bg.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 700px;
-} 
-.marriage-text{
-    color: white;
-    font-size: 60px;
-    font-family: 'Cormorant Garamond',Georgia,"Times New Roman",serif;
+
+.marriage-bg {
+  background-image: url(./Assets/image/marriage-bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 700px;
 }
-.text-1{
-    margin-left: -70px;
+
+.marriage-text {
+  color: white;
+  font-size: 60px;
+  font-family: 'Cormorant Garamond', Georgia, "Times New Roman", serif;
 }
-.text-2{
-    margin-left: 150px;
+
+.text-1 {
+  margin-left: -70px;
 }
-.text-3{
-    margin-left: 250px;
+
+.text-2 {
+  margin-left: 150px;
 }
-.text-4{
-    margin-left: 300px;
+
+.text-3 {
+  margin-left: 250px;
 }
-.gallery-bg{
-    background-image: url(./Assets/image/footer2.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 400px;
+
+.text-4 {
+  margin-left: 300px;
 }
-.gallery-st-bg{
-    background-image: url(./Assets/image/gallery-bg-2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+
+.gallery-bg {
+  background-image: url(./Assets/image/footer2.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
 }
-.gallery-md-bg{
-    background-image: url(./Assets/image/gallery-end-bg.avif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+
+.gallery-st-bg {
+  background-image: url(./Assets/image/gallery-bg-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-.gallery-end-bg{
-    background-image: url(./Assets/image/gallery-end-bg-1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+
+.gallery-md-bg {
+  background-image: url(./Assets/image/gallery-end-bg.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-.footer-bg{
-    background-image: url(./Assets/image/footer-bg-img.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 300px;
+
+.gallery-end-bg {
+  background-image: url(./Assets/image/gallery-end-bg-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-.footer-icon{
-    width: 40px;
+
+.footer-bg {
+  background-image: url(./Assets/image/footer-bg-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
 }
+
+.footer-icon {
+  width: 40px;
+}
+
+@media(max-width:767px) {
+  .marriage-bg {
+    height: auto;
+  }
+
+}
+
+  .navbar-toggler i{
+    color: #fff;
+  }
+
+
+  @media(max-width:767px) {
+    .foot p {
+      color: black;
+    }
+  
+  }

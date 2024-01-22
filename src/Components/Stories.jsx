@@ -11,6 +11,7 @@ import { Link } from 'react-router-dom'
 
 
 export default function Stories() {
+    const[active,setActive] = useState(false)
     let gotoTop = (secID) => {
         const element = document.getElementById(secID);
         const navbarElement = document.querySelector('.navbar');
@@ -43,28 +44,14 @@ export default function Stories() {
         <div className=''>
             <nav className="navbar navbar-expand-lg nav-banner  p-0 z-3" id='home' style={{ backgroundColor: '#060525' }}>
                 <div className="container-fluid">
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
+                    <button className="navbar-toggler shadow-none" onClick={()=> setActive(!active)} type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i className={`bi ${active ? "bi-x":"bi-list"}`}></i>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav mx-auto mb-3 p-2 mb-lg-0 text-center">
+                           
                             <li className="nav-item heading7">
-                                <Link className="nav-link active px-3 text1" aria-current="page" id='name-nav' onClick={() => gotoTop('home')}>Home</Link>
-                            </li>
-                            <li className="nav-item heading7">
-                                <Link className="nav-link active px-3 text1" aria-current="page" id='name-nav' onClick={() => gotoTop('about')}>About</Link>
-                            </li>
-                            <li className="nav-item heading7">
-                                <Link className="nav-link active px-3 text1" aria-current="page" id='name-nav' onClick={() => gotoTop('moments')}>Moments</Link>
-                            </li>
-                            <li class="nav-item heading7">
-                                <Link class="nav-link active px-3 text1" aria-current="page" id='name-nav' onClick={() => gotoTop('packages')}>Packages</Link>
-                            </li>
-                            <li className="nav-item heading7">
-                                <Link className="nav-link active px-3 text1" aria-current="page" id='name-nav' onClick={() => gotoTop('stories')} to="stories">Stories</Link>
-                            </li>
-                            <li className="nav-item heading7">
-                                <Link className="nav-link active px-3 text1" aria-current="page" id='name-nav' onClick={() => gotoTop('contact')}>Contact</Link>
+                                <Link className="nav-link active px-3 text1" aria-current="page" id='name-nav' to="/">Home</Link>
                             </li>
                         </ul>
                     </div>

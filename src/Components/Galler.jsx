@@ -11,15 +11,60 @@ import gallery4 from '../Assets/image/gallery-4.png'
 import gallery9 from '../Assets/image/gallery-9.jpg'
 import gallery11 from '../Assets/image/gallery-11.jpg'
 import marriage1 from '../Assets/image/marriage-img-1.jpg'
+import { Link } from 'react-router-dom'
 
 export default function Galler() {
+    const[active,setActive] = useState(false)
+    let gotoTop = (secID) => {
+        const element = document.getElementById(secID);
+        const navbarElement = document.querySelector('.navbar');
+
+        if (navbarElement) {
+            var navHeight = navbarElement.clientHeight;
+            // Use navHeight as needed
+        }
+        if (element) {
+            const topPosition = element.getBoundingClientRect().top + window.scrollY;
+            window.scrollTo({ top: topPosition - navHeight, behavior: 'smooth' });
+
+        }
+
+    }
+    gotoTop();
+    setTimeout(() => {
+        let takeheight = document.querySelector('.about').clientHeight;
+        let givenElement = document.querySelector('.givenheight');
+
+        console.log(takeheight);
+
+        if (givenElement) {
+            givenElement.style.height = takeheight + 'px';
+            console.log(givenElement.clientHeight);
+        }
+    }, 500);
+
     return (
         <div>
-            <section className='container text-31 '>
-            <h5 className='pt-3 heading10 text-center'>Every Special Moments</h5>
+            <nav className="navbar navbar-expand-lg nav-banner  p-0 z-3" id='home' style={{ backgroundColor: '#060525' }}>
+                <div className="container-fluid">
+                    <button className="navbar-toggler shadow-none"onClick={()=> setActive(!active)} type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i className={`bi ${active ? "bi-x":"bi-list"}`}></i>
+                    </button>
+                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul className="navbar-nav mx-auto mb-3 p-2 mb-lg-0 text-center">
+
+                            <li className="nav-item heading7">
+                                <Link className="nav-link active px-3 text1" aria-current="page" id='name-nav' to="/">Home</Link>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <section className='container text-31 mt-5 '>
+                <h5 className='pt-3 heading10 text-center'>Every Special Moments</h5>
                 <div className='gallery-bg mt-4'>
                     <div className='text-center'>
-                       
+
                     </div>
                 </div>
                 <div className='gallery-st-bg'>

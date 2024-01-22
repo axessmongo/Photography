@@ -2,10 +2,40 @@ import React from 'react'
 import wedding from '../Assets/image/wedding.jpeg'
 import engagement from '../Assets/image/engagement.jpeg'
 import lifestyle from '../Assets/image/lifestyle.jpeg'
+import { Link } from 'react-router-dom'
 
 
 function Moments() {
+    let gotoTop = (secID) => {
+        const element = document.getElementById(secID);
+        const navbarElement = document.querySelector('.navbar');
+
+        if (navbarElement) {
+            var navHeight = navbarElement.clientHeight;
+            // Use navHeight as needed
+        }
+        if (element) {
+            const topPosition = element.getBoundingClientRect().top + window.scrollY;
+            window.scrollTo({ top: topPosition - navHeight, behavior: 'smooth' });
+
+        }
+
+    }
+    gotoTop();
+    setTimeout(() => {
+        let takeheight = document.querySelector('.about').clientHeight;
+        let givenElement = document.querySelector('.givenheight');
+
+        console.log(takeheight);
+
+        if (givenElement) {
+            givenElement.style.height = takeheight + 'px';
+            console.log(givenElement.clientHeight);
+        }
+    }, 500);
   return (
+    
+   <>
     <section className='container'>
          <div className='text-center pt-3'>
             <h3>Moments</h3>
@@ -73,7 +103,7 @@ function Moments() {
                 </div>
             </div>
         </div>
-    </section>
+    </section></>
   )
 }
 
