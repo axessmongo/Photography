@@ -4,7 +4,7 @@ import logo1 from '../assets/image/logo1.png'
 import img2 from '../assets/image/img2.jpeg'
 import wedding from '../Assets/image/wedding.jpeg'
 import engagement from '../Assets/image/engagement.jpeg'
-import lifestyle from '../Assets/image/lifestyle.jpeg'
+
 import marriage1 from '../Assets/image/marriage-img-1.jpg'
 import marriage2 from '../Assets/image/marriage-img-2.jpg'
 import marriage3 from '../Assets/image/marriage-img-3.jpeg'
@@ -13,8 +13,14 @@ import footer2 from '../assets/image/footer2.jpeg'
 import baby1 from '../assets/image/babyshower.webp'
 import resort from '../assets/image/resort.jpg'
 import temple from '../assets/image/temple.png'
-
-
+import fb from '../Assets/image/fb.png'
+import insta from '../Assets/image/insta.png'
+import twitter from '../Assets/image/twitter.png'
+import whatsapp from '../Assets/image/whatsapp.png'
+import youtube from '../Assets/image/youtube.png'
+import gallerys1 from '../assets/image/gallery-16.jpg'
+import gallery13 from '../assets/image/gallery-13.jpg'
+import demo from '../assets/image/demo1.jpeg'
 
 
 
@@ -52,12 +58,12 @@ export default function Home() {
       <section>
         {/* navbar starts */}
         <div>
-          <nav className="navbar navbar-expand-lg nav-banner  p-0 z-3" style={{ backgroundColor: '#060525' }} id='home'>
+          <nav className="navbar navbar-expand-lg nav-banner  p-0 z-3" style={{ backgroundColor: '#060525' }}>
             <div className="container-fluid">
               <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
                 <span className="navbar-toggler-icon"></span>
               </button>
-              <div className="collapse navbar-collapse" id="navbarSupportedContent ">
+              <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav mx-auto mb-3 p-2 mb-lg-0 text-center">
                   <li className="nav-item heading7">
                     <Link className="nav-link active px-3 text1" aria-current="page" id='name-nav' onClick={() => gotoTop('home')}>Home</Link>
@@ -66,7 +72,7 @@ export default function Home() {
                     <Link className="nav-link active px-3 text1" aria-current="page" id='name-nav' onClick={() => gotoTop('about')}>About</Link>
                   </li>
                   <li className="nav-item heading7">
-                    <Link className="nav-link active px-3 text1" aria-current="page" id='name-nav' onClick={() => gotoTop('moments')}>Moments</Link>
+                    <Link className="nav-link active px-3 text1" aria-current="page" id='name-nav' onClick={() => gotoTop('moments')} to="galler">Moments</Link>
                   </li>
                   <li class="nav-item heading7">
                     <Link class="nav-link active px-3 text1" aria-current="page" id='name-nav' onClick={() => gotoTop('packages')}>Packages</Link>
@@ -141,10 +147,10 @@ export default function Home() {
             <div className='col-md-4 pt-4'>
               <div>
                 <div className='p-2 border border-secondary'>
-                  <img src={lifestyle} alt="" className='img-fluid' />
+                  <img src={gallery13} alt="" className='img-fluid' />
                 </div>
                 <div className='pt-4 text-center heading11'>
-                  <h3>Life Style</h3>
+                  <h3>Baby Shower</h3>
                 </div>
               </div>
             </div>
@@ -154,24 +160,24 @@ export default function Home() {
                   <img src={baby1} alt="" className='img-fluid' />
                 </div>
                 <div className='pt-4 text-center heading11'>
-                  <h3>Baby</h3>
+                  <h3>Babymoon Bash</h3>
                 </div>
               </div>
             </div>
             <div className='col-md-4 pt-4 mt-4'>
               <div>
                 <div className='p-2 border border-secondary'>
-                  <img src={temple} alt="" className='img-fluid' />
+                  <img src={demo} alt="" className='img-fluid' />
                 </div>
                 <div className='pt-4 text-center heading11'>
-                  <h3>Temple</h3>
+                  <h3>Candid</h3>
                 </div>
               </div>
             </div>
             <div className='col-md-4 pt-4  mt-4'>
               <div>
                 <div className='p-2 border border-secondary'>
-                  <img src={resort} alt="" className='img-fluid' />
+                  <img src={gallerys1} alt="" className='img-fluid' />
                 </div>
                 <div className='pt-4 text-center heading11'>
                   <h3> Resort</h3>
@@ -233,6 +239,48 @@ export default function Home() {
           </div>
         </section>
         {/* collection starts */}
+        <section className='py-3' id='contact'>
+          <div className='footer-bg py-3'>
+            <div className='row d-flex justify-content-center align-items-center'>
+              <div className='col-md-3 '>
+                {/* <div className='text-center'>
+                  <img src={logo1} alt="" className='img-fluid w-50' />
+                </div> */}
+              </div>
+              <div className='col-md-3 text-center text-light heading7'>
+                <h3 style={{ color: ' #f7bc35' }}>Let's Talk</h3>
+                <p>xxx@gmail.com</p>
+                <p>xxxxx</p>
+              </div>
+              <div className='col-md-3 text-center text-light heading7'>
+                <h3 className='pb-2' style={{ color: ' #f7bc35' }}>Quick Link</h3>
+                <p> Wedding</p>
+                <p>Pre-wedding Shoot</p>
+                <p>Baby Shower</p>
+                <p>Engagement</p>
+                <p>Reception</p>
+              </div>
+
+              <div className='col-md-3'>
+                <div className=''>
+
+                  <img src={fb} alt="" className='img-fluid footer-icon' />
+
+                  <img src={insta} alt="" className='img-fluid footer-icon' />
+
+                  <img src={twitter} alt="" className='img-fluid footer-icon' />
+
+                  <img src={whatsapp} alt="" className='img-fluid footer-icon' />
+
+                  <img src={youtube} alt="" className='img-fluid footer-icon' />
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </section>
+
 
       </section>
     </div>
