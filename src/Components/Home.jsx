@@ -5,14 +5,16 @@ import img2 from '../assets/image/img2.jpeg'
 import wedding from '../Assets/image/wedding.jpeg'
 import engagement from '../Assets/image/engagement.jpeg'
 import lifestyle from '../Assets/image/lifestyle.jpeg'
-import marriage1 from '../Assets/image/marriage-img-1.jpg'
 import marriage2 from '../Assets/image/marriage-img-2.jpg'
-import marriage3 from '../Assets/image/marriage-img-3.jpeg'
 import Collection2 from '../assets/image/collection2.jpeg'
 import footer2 from '../assets/image/footer2.jpeg'
 import baby1 from '../assets/image/babyshower.webp'
-import resort from '../assets/image/resort.jpg'
-import temple from '../assets/image/temple.png'
+import gallerys1 from '../Assets/image/gallery-16.jpg'
+import fb from '../Assets/image/fb.png'
+import insta from '../Assets/image/insta.png'
+import twitter from '../Assets/image/twitter.png'
+import whatsapp from '../Assets/image/whatsapp.png'
+import youtube from '../Assets/image/youtube.png'
 
 export default function Home() {
   let gotoTop = (secID) => {
@@ -62,13 +64,13 @@ export default function Home() {
                   </li>
 
                   <li class="nav-item heading7 ">
-                    <a class="nav-link active px-3 text1" aria-current="page" id='name-nav'onClick={() => gotoTop('about')} >About </a>
+                    <a class="nav-link active px-3 text1" aria-current="page" id='name-nav' onClick={() => gotoTop('about')} >About </a>
                   </li>
 
 
 
                   <li class="nav-item heading7">
-                    <a class="nav-link active px-3 text1" aria-current="page" id='name-nav'onClick={() => gotoTop('moments')}>Moments</a>
+                    <a class="nav-link active px-3 text1" aria-current="page" id='name-nav' onClick={() => gotoTop('moments')}>Moments</a>
                   </li>
                   <Link class="navbar-brand" to="#">
                     <img src={logo1} alt=" navlogo" className='nav-logo img-fluid ' />
@@ -79,11 +81,11 @@ export default function Home() {
                   </li>
 
                   <li class="nav-item heading7 ">
-                    <a class="nav-link active px-3 text1" aria-current="page" id='name-nav'onClick={() => gotoTop('stories')} >Stories</a>
+                    <a class="nav-link active px-3 text1" aria-current="page" id='name-nav' onClick={() => gotoTop('stories')} >Stories</a>
                   </li>
 
                   <li class="nav-item heading7    ">
-                    <a class="nav-link active px-3 text1" aria-current="page" id='name-nav'onClick={() => gotoTop('contact')}>Contact</a>
+                    <a class="nav-link active px-3 text1" aria-current="page" id='name-nav' onClick={() => gotoTop('contact')}>Contact</a>
                   </li>
 
 
@@ -176,7 +178,7 @@ export default function Home() {
             <div className='col-md-4 pt-4 mt-4'>
               <div>
                 <div className='p-2 border border-secondary'>
-                  <img src={temple} alt="" className='img-fluid' />
+                  <img src={marriage2} alt="" className='img-fluid' />
                 </div>
                 <div className='pt-4 text-center heading11'>
                   <h3>Temple</h3>
@@ -186,7 +188,7 @@ export default function Home() {
             <div className='col-md-4 pt-4  mt-4'>
               <div>
                 <div className='p-2 border border-secondary'>
-                  <img src={resort} alt="" className='img-fluid' />
+                  <img src={gallerys1} alt="" className='img-fluid ' />
                 </div>
                 <div className='pt-4 text-center heading11'>
                   <h3> Resort</h3>
@@ -244,32 +246,51 @@ export default function Home() {
             </div>
           </div>
         </section>
-        {/* collection starts */}
-        <section className='container  '>
-          <div className="row">
-            <div className='text-center pt-3' >
-              <h5 className='mt-4 ' style={{ color: "#ecd5c5" }}>NEW</h5>
-              <h3 className='heading10 mt-3 '>Our Latest Collections</h3>
-            </div>
-            <div className="col-md-4 bg-6 mt-5 ">
-              <h3 className='heading12'>What makes US SMILE!</h3>
-              <p className='heading2 mt-4'>We believe in authentic as the main element to tell a true story through images and photography has always been an awe-inspiring field to mix up accurate techniques with our personal creative perception.</p>
+        {/* footer starts */}
+        <section className='container-fluid py-3'>
+          <div className='footer-bg py-3'>
+            <div className='row d-flex justify-content-center align-items-center'>
+              <div className='col-md-3 '>
+                <div className='text-center'>
+                  <img src={logo1} alt="" className='img-fluid w-50' />
+                </div>
+              </div>
+              <div className='col-md-3 text-center text-light hding7'>
+                  <h3 style={{color:' #f7bc35'}}>Lat's Talk</h3>
+                  <p>clickpicture@gmail.com</p>
+                  <p>999xx xx101</p>
+              </div>
+              <div className='col-md-3 text-center text-light heading7'>
+                <h3 className='pb-2'  style={{color:' #f7bc35'}}>Quick Link</h3>
+                <p> Wedding</p>
+                <p>Pre-wedding Shoot</p>
+                <p>Baby Shower</p>
+                <p>Engagement</p>
+                <p>Reception</p>
 
-            </div>
-            <div className="col-md-6 mt-5 ">
-              <img src={Collection2} alt="" className='img-fluid ' />
+              </div>
+
+              <div className='col-md-3'>
+                <div className=''>
+               
+                  <img src={fb} alt="" className='img-fluid footer-icon' />
+                
+                  <img src={insta} alt="" className='img-fluid footer-icon' />
+               
+                  <img src={twitter} alt="" className='img-fluid footer-icon' />
+               
+                  <img src={whatsapp} alt="" className='img-fluid footer-icon' />
+                
+                  <img src={youtube} alt="" className='img-fluid footer-icon' />
+    
+              </div>
+              
+              </div>
             </div>
           </div>
-
-          <section className='container mt-5'>
-            <div>
-              <img src={footer2} alt="" className='' />
-            </div>
-
-
-
-          </section>
         </section>
+
+
       </section>
     </div>
   )

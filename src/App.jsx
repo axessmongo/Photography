@@ -17,7 +17,7 @@ function App() {
           <Route>
             <Route path='/' element={<Home />} />
             {/* <Route path='/' element={<Collection />} /> */}
-            <Route path='/Latest' element={<Latest />} />
+            {/* <Route path='/Latest' element={<Latest />} /> */}
              {/* <Route path='/' element={<Moments />} />
              <Route path='/home' element = {<Home />}/> */}
             

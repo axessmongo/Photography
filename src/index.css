@@ -1,7 +1,9 @@
+
 .marriage-bg{
     background-image: url(./Assets/image/marriage-bg.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 700px;
 } 
 .marriage-text{
@@ -20,4 +22,39 @@
 }
 .text-4{
     margin-left: 300px;
+}
+.gallery-bg{
+    background-image: url(./Assets/image/footer2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+.gallery-st-bg{
+    background-image: url(./Assets/image/gallery-bg-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.gallery-md-bg{
+    background-image: url(./Assets/image/gallery-end-bg.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.gallery-end-bg{
+    background-image: url(./Assets/image/gallery-end-bg-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.footer-bg{
+    background-image: url(./Assets/image/footer-bg-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+.footer-icon{
+    width: 40px;
 }
