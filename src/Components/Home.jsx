@@ -14,6 +14,10 @@ import baby1 from '../assets/image/babyshower.webp'
 import resort from '../assets/image/resort.jpg'
 import temple from '../assets/image/temple.png'
 
+
+
+
+
 export default function Home() {
   let gotoTop = (secID) => {
     const element = document.getElementById(secID);
@@ -44,59 +48,40 @@ export default function Home() {
   }, 500);
 
   return (
-    <div>
+    <div className='overflow-x-hidden'>
       <section>
         {/* navbar starts */}
-        <section className='nav-banner'>
-          <nav class="navbar navbar-expand-lg nav-banner p-0" id='home'>
-            <div class="container-fluid">
-
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+        <div>
+          <nav className="navbar navbar-expand-lg nav-banner  p-0 z-3" style={{ backgroundColor: '#060525' }} id='home'>
+            <div className="container-fluid">
+              <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+                <span className="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent ">
-                <ul class="navbar-nav mx-auto  mb-lg-0 text-center  ">
-
-                  <li class="nav-item heading7 ">
-                    <a class="nav-link active px-3 text1" aria-current="page" id='name-nav' onClick={() => gotoTop('home')}>Home</a>
+              <div className="collapse navbar-collapse" id="navbarSupportedContent ">
+                <ul className="navbar-nav mx-auto mb-3 p-2 mb-lg-0 text-center">
+                  <li className="nav-item heading7">
+                    <Link className="nav-link active px-3 text1" aria-current="page" id='name-nav' onClick={() => gotoTop('home')}>Home</Link>
                   </li>
-
-                  <li class="nav-item heading7 ">
-                    <a class="nav-link active px-3 text1" aria-current="page" id='name-nav'onClick={() => gotoTop('about')} >About </a>
+                  <li className="nav-item heading7">
+                    <Link className="nav-link active px-3 text1" aria-current="page" id='name-nav' onClick={() => gotoTop('about')}>About</Link>
                   </li>
-
-
-
+                  <li className="nav-item heading7">
+                    <Link className="nav-link active px-3 text1" aria-current="page" id='name-nav' onClick={() => gotoTop('moments')}>Moments</Link>
+                  </li>
                   <li class="nav-item heading7">
-                    <a class="nav-link active px-3 text1" aria-current="page" id='name-nav'onClick={() => gotoTop('moments')}>Moments</a>
+                    <Link class="nav-link active px-3 text1" aria-current="page" id='name-nav' onClick={() => gotoTop('packages')}>Packages</Link>
                   </li>
-                  <Link class="navbar-brand" to="#">
-                    <img src={logo1} alt=" navlogo" className='nav-logo img-fluid ' />
-                  </Link>
-
-                  <li class="nav-item heading7">
-                    <a class="nav-link active px-3 text1" aria-current="page" id='name-nav' onClick={() => gotoTop('packages')}>Packages</a>
+                  <li className="nav-item heading7">
+                    <Link className="nav-link active px-3 text1" aria-current="page" id='name-nav' onClick={() => gotoTop('stories')} to="stories">Stories</Link>
                   </li>
-
-                  <li class="nav-item heading7 ">
-                    <a class="nav-link active px-3 text1" aria-current="page" id='name-nav'onClick={() => gotoTop('stories')} >Stories</a>
+                  <li className="nav-item heading7">
+                    <Link className="nav-link active px-3 text1" aria-current="page" id='name-nav' onClick={() => gotoTop('contact')}>Contact</Link>
                   </li>
-
-                  <li class="nav-item heading7    ">
-                    <a class="nav-link active px-3 text1" aria-current="page" id='name-nav'onClick={() => gotoTop('contact')}>Contact</a>
-                  </li>
-
-
-
                 </ul>
               </div>
             </div>
           </nav>
-          {/* Nav-End */}
-
-
-
-        </section>
+        </div>
         {/* navbanner starts */}
         <section className='hero-banner vh-100'>
 
@@ -115,7 +100,7 @@ export default function Home() {
                   <p className='mt-4 heading8'>Life can be crazy, shy, silly, glowing, sensual, teasing, flirting, quiet or playful and we are passionate about documenting spontaneous mood in an editorially style, while carefully creating authentic images that matter. We want to take pictures of you the way you are.
 
                   </p>
-                  <div class="text2 mt-5"><h6> TimeZone</h6>
+                  <div class="text31 mt-5"><h6> TimeZone</h6>
                     <p className='heading1'>FOUNDER &amp; ARTIST</p></div>
 
 
@@ -127,8 +112,8 @@ export default function Home() {
           </div>
         </section>
         {/* moments starts */}
-        <section className='container'>
-          <div className='text-center pt-3 text-2'>
+        <section className='container' id='about'>
+          <div className='text-center pt-3 text-31'>
             <h5 className='mt-4'>Moments</h5>
             <h3 className='heading10 mt-3'>What We Do</h3>
           </div>
@@ -213,14 +198,14 @@ export default function Home() {
         </section>
         {/* package starts */}
         <section>
-          <div className="container mt-4">
+          <div className="container mt-4" id='packages'>
             <div className="row g-0">
               <div className="col-md-5 mt-5">
                 <img src={img2} alt="" className='img-fluid' />
               </div>
               <div className="col-md-7 mt-5 px-5 py-5 text-center bg-2  " >
 
-                <div class="text-2">
+                <div class="text-31">
                   <h5 className='mt-3 '>Every Special Moment</h5>
                   <h3 className='heading5 mt-4'>Full Wedding Experience</h3>
                   <ul className='heading9 mt-3 py-3' style={{ listStyleType: "disc", textAlign: "left", color: "grey" }}>
@@ -234,7 +219,10 @@ export default function Home() {
 
                 </div>
                 <div className='text-center'>
-                  <button className='btn1' href='./Latest.jsx'>Pricing Packages <i class="bi bi-arrow-right "></i></button>
+                  <button className='' >
+                    <a className=' px-4 py-2 btn1' href='tel:9092570489' target="_blank" style={{ textDecoration: "none", color: "black" }}>Contact here
+                      <i class="bi bi-arrow-right "></i></a>
+                  </button>
                 </div>
 
 
@@ -245,31 +233,7 @@ export default function Home() {
           </div>
         </section>
         {/* collection starts */}
-        <section className='container  '>
-          <div className="row">
-            <div className='text-center pt-3' >
-              <h5 className='mt-4 ' style={{ color: "#ecd5c5" }}>NEW</h5>
-              <h3 className='heading10 mt-3 '>Our Latest Collections</h3>
-            </div>
-            <div className="col-md-4 bg-6 mt-5 ">
-              <h3 className='heading12'>What makes US SMILE!</h3>
-              <p className='heading2 mt-4'>We believe in authentic as the main element to tell a true story through images and photography has always been an awe-inspiring field to mix up accurate techniques with our personal creative perception.</p>
 
-            </div>
-            <div className="col-md-6 mt-5 ">
-              <img src={Collection2} alt="" className='img-fluid ' />
-            </div>
-          </div>
-
-          <section className='container mt-5'>
-            <div>
-              <img src={footer2} alt="" className='' />
-            </div>
-
-
-
-          </section>
-        </section>
       </section>
     </div>
   )

@@ -21,3 +21,8 @@
 .text-4{
     margin-left: 300px;
 }
+@media(max-width:767px){
+    .marriage-bg{
+        height: auto;
+    }
+}

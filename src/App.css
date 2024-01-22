@@ -7,6 +7,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Helvetica,Arial,Lucida,sans-serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;700&display=swap');
+
 
 
 
@@ -128,12 +130,13 @@
 
 }
 
-.home-nav {
+#home{
   position: fixed;
   width: 100%;
-  top: 0%;
-  z-index: 987698;
+  top: 0;
+  z-index: 98765;
 }
+
 
 
 
@@ -195,16 +198,16 @@
   margin-top: -50px;
 }
 
-.text2 h6 {
+.text31 h6 {
   font-family: 'Sacramento', handwriting;
   font-size: 45px;
 }
 
-.text-2 {
+.text-31 {
   position: relative;
 }
 
-.text-2 h5 {
+.text-31 h5 {
   font-family: 'Poppins', 'Helvetica', 'Arial', 'Lucida', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -284,4 +287,23 @@
 
 .disp {
   display: contents;
+}
+.img3{
+ 
+    border: 20px solid white;
+    box-shadow: 1px 1px 9px 4px #e7e7e7;
+
+}
+.heading0{
+  font-family: 'Playfair Display SC',Georgia,"Times New Roman",serif;
+  letter-spacing: .2px;
+  
+  line-height: 2;
+  font-size: 42px;
+  word-spacing: 8px;
+}
+.back-logo{
+  background: url('./assets/image/back-logo2.avif');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
