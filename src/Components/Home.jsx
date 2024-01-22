@@ -238,14 +238,14 @@ export default function Home() {
             </div>
           </div>
         </section>
-        {/* collection starts */}
+        {/* footer starts */}
         <section className='py-3' id='contact'>
           <div className='footer-bg py-3'>
             <div className='row d-flex justify-content-center align-items-center'>
               <div className='col-md-3 '>
-                {/* <div className='text-center'>
-                  <img src={logo1} alt="" className='img-fluid w-50' />
-                </div> */}
+                <div className='text-center'>
+                  {/* <img src={logo1} alt="" className='img-fluid w-50' /> */}
+                </div>
               </div>
               <div className='col-md-3 text-center text-light heading7'>
                 <h3 style={{ color: ' #f7bc35' }}>Let's Talk</h3>
@@ -262,7 +262,7 @@ export default function Home() {
               </div>
 
               <div className='col-md-3'>
-                <div className=''>
+                <div className=' text-center'>
 
                   <img src={fb} alt="" className='img-fluid footer-icon' />
 
