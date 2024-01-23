@@ -54,7 +54,7 @@ export default function Home() {
   }, 500);
 
   return (
-    <div className='overflow-x-hidden'>
+    <div className='overflow-hidden '>
       <section>
         {/* navbar starts */}
         <div id='home'>
