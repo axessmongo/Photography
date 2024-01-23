@@ -12,8 +12,13 @@ import gallery9 from '../Assets/image/gallery-9.jpg'
 import gallery11 from '../Assets/image/gallery-11.jpg'
 import marriage1 from '../Assets/image/marriage-img-1.jpg'
 import { Link } from 'react-router-dom'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function Galler() {
+    AOS.init({
+        // Add your AOS options here
+      });
     const[active,setActive] = useState(false)
     let gotoTop = (secID) => {
         const element = document.getElementById(secID);

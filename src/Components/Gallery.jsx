@@ -11,15 +11,12 @@ import gallery4 from '../Assets/image/gallery-4.png'
 import gallery9 from '../Assets/image/gallery-9.jpg'
 import gallery11 from '../Assets/image/gallery-11.jpg'
 import marriage1 from '../Assets/image/marriage-img-1.jpg'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+
 
 
 function Gallery() {
 
-    AOS.init({
-        // Add your AOS options here
-      });
+  
 
     return (
         <section className='container-fluid'>

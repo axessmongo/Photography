@@ -248,12 +248,12 @@ export default function Home() {
                   {/* <img src={logo1} alt="" className='img-fluid w-50' /> */}
                 </div>
               </div>
-              <div className='col-md-3 text-center text-light heading4 foot'>
+              <div className='col-md-3 text-center text-light heading7 foot'>
                 <h3 style={{ color: ' #f7bc35' }}>Let's Talk</h3>
-                <p>xxx@gmail.com</p>
-                <p>xxxxx</p>
+                <h3>xxx@gmail.com</h3>
+                <h4>xxxxx xxxxx</h4>
               </div>
-              <div className='col-md-3 text-center text-light heading4 foot'>
+              <div className='col-md-3 text-center text-light heading7 foot'>
                 <h3 className='pb-2' style={{ color: ' #f7bc35' }}>Quick Link</h3>
                 <p> Wedding</p>
                 <p>Pre-wedding Shoot</p>
