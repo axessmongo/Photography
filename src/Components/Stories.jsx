@@ -10,8 +10,9 @@ import collection1 from '../assets/image/collection1.jpeg'
 import { Link } from 'react-router-dom'
 
 
-export default function Stories() {
-    const[active,setActive] = useState(false)
+export default function 
+
+() {
     let gotoTop = (secID) => {
         const element = document.getElementById(secID);
         const navbarElement = document.querySelector('.navbar');
@@ -44,8 +45,8 @@ export default function Stories() {
         <div className=''>
             <nav className="navbar navbar-expand-lg nav-banner  p-0 z-3" id='home' style={{ backgroundColor: '#060525' }}>
                 <div className="container-fluid">
-                    <button className="navbar-toggler shadow-none" onClick={()=> setActive(!active)} type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <i className={`bi ${active ? "bi-x":"bi-list"}`}></i>
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i className="bi bi-list"></i>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav mx-auto mb-3 p-2 mb-lg-0 text-center">
@@ -66,7 +67,7 @@ export default function Stories() {
                     <div className='row py-2 my-2 mt-5 align-items-center g-4'>
                         <div className="col-md-6">
 
-                            <video src={video1} autoPlay loop className='w-100 img3'></video>
+                            <video src={video1} autoPlay loop muted className='w-100 img3'></video>
                         </div>
                         <div className="col-md-6 text-center">
                             <h1 className='heading0 ' style={{ color: "#ecd5c5", fontSize: "50px" }}>Wedding</h1>
@@ -89,7 +90,7 @@ export default function Stories() {
 
                         <div className='col-md-6'>
                             <div className='text-center'>
-                                <video src={video2} autoPlay loop className='w-100 img3'></video>
+                                <video src={video2} autoPlay muted loop className='w-100 img3'></video>
                             </div>
 
 

@@ -54,7 +54,7 @@ export default function Home() {
   }, 500);
 
   return (
-    <div className='overflow-x-hidden'>
+    <div className='overflow-hidden '>
       <section>
         {/* navbar starts */}
         <div id='home'>
@@ -67,7 +67,10 @@ export default function Home() {
               <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav mx-auto mb-3 p-2 mb-lg-0 text-center">
                   <li className="nav-item heading7">
-                    <Link className="nav-link active px-3 text1" aria-current="page" id='name-nav' onClick={() => gotoTop('home')}>Home</Link>
+                    <Link className="nav-link active px-3 text1" aria-current="page" id='name-nav'
+                    
+                    
+                    >Home</Link>
                   </li>
                   <li className="nav-item heading7">
                     <Link className="nav-link active px-3 text1" aria-current="page" id='name-nav' onClick={() => gotoTop('about')}>About</Link>
