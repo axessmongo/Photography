@@ -49,18 +49,23 @@ function Gallery() {
                 <div className='gallery-st-bg'>
                     <div className='row d-flex justify-content-center py-4 my-4'>
                         <div className='col-md-5 text-center'>
-                            <div className='mb-3'>
-                                <img src={gallery1} alt="" className='img-fluid w-75 border border-secondary p-2' />
+                            <div className='mb-3' >
+                                <div className='' data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                                    <img src={gallery1} alt="" className='img-fluid w-75 border border-secondary p-2' />
+                                </div>
                             </div>
 
                         </div>
                         <div className='col-md-5'>
-                            <div className=''>
+                            <div className='' data-aos="flip-up" data-aos-duration = "1200">
                                 <img src={gallery2} alt="" className='img-fluid w-75 border border-secondary p-2' />
+
                             </div>
-                            <h3 className='pt-2 text-center heading4'>Sweet Memories</h3>
-                            <div className=' text-end'>
-                                <img src={gallert3} alt="" className='img-fluid w-75 border border-secondary p-2' />
+                            <h3 className='pt-2 text-center heading4' >Sweet Memories</h3>
+                            <div className=' text-end' >
+                                <div className='' data-aos="flip-left" data-aos-duration = "1000">
+                                    <img src={gallert3} alt="" className='img-fluid w-75 border border-secondary p-2' />
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -69,17 +74,24 @@ function Gallery() {
                 <div className='gallery-md-bg'>
                     <div className='row d-flex justify-content-center py-4 my-4'>
                         <div className='col-md-5'>
-                            <div className=' '>
+                            <div className=' ' data-aos="fade-down-left" data-aos-duration = "1000">
                                 <img src={gallert6} alt="" className='img-fluid w-50 border border-secondary p-2' />
                             </div>
-                            <div className='text-end pt-2'>
-                                <img src={gallert7} alt="" className='img-fluid w-50 border border-secondary p-2' />
+                            <div className='text-end pt-2' >
+                                <div className='' data-aos="fade-right" data-aos-duration = "1000">
+                                    <img src={gallert7} alt="" className='img-fluid w-50 border border-secondary p-2' />
+                                </div>
+
                             </div>
                             <div className='pt-2'>
-                                <img src={gallert8} alt="" className='img-fluid w-50 border border-secondary p-2' />
+                                <div className='' data-aos="fade-left" data-aos-duration = "1000">
+                                    <img src={gallert8} alt="" className='img-fluid w-50 border border-secondary p-2' />
+                                </div>
                             </div>
                             <div className='text-end pt-2'>
-                                <img src={gallery19} alt="" className='img-fluid w-50 border border-secondary p-2' />
+                                <div className='' data-aos="fade-right" data-aos-duration = "1000">
+                                    <img src={gallery19} alt="" className='img-fluid w-50 border border-secondary p-2' />
+                                </div>
                             </div>
 
                         </div>
@@ -87,7 +99,7 @@ function Gallery() {
                             <div className=''>
                                 <h1 className='heading10 pb-2 pt-1'>Pre-Wedding Shoot</h1>
                             </div>
-                            <div className=''>
+                            <div className='' data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                                 <img src={gallery16} alt="" className='img-fluid border border-secondary p-2' />
                             </div>
                         </div>
@@ -97,18 +109,26 @@ function Gallery() {
                     <div className='row d-flex justify-content-center pt-4'>
                         <div className='col-md-5'>
                             <div className='text-end'>
-                                <img src={gallery4} alt="" className='img-fluid w-75 border border-5 p-1' />
+                               <div className='' data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">  
+                               <img src={gallery4} alt="" className='img-fluid w-75 border border-5 p-1' />
+                               </div>
                             </div>
                             <div className='pt-3 mb-3'>
+                                <div className='' data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                                 <img src={gallery9} alt="" className='img-fluid w-75 border border-5 p-1' />
+                                </div>
                             </div>
                         </div>
                         <div className='col-md-5'>
                             <div className='text-end'>
-                                <img src={marriage1} alt="" className='img-fluid w-75 border border-5 p-1' />
+                               <div className='' data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                               <img src={marriage1} alt="" className='img-fluid w-75 border border-5 p-1' />
+                               </div>
                             </div>
                             <div className='pt-3'>
-                                <img src={gallery11} alt="" className='img-fluid w-75 border border-5 p-1' />
+                               <div className='' data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                               <img src={gallery11} alt="" className='img-fluid w-75 border border-5 p-1' />
+                               </div>
                             </div>
                             <h1 className='heading10 text-light'>Best Moments</h1>
                         </div>

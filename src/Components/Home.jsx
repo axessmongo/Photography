@@ -20,6 +20,8 @@ import youtube from '../Assets/image/youtube.png'
 import gallerys1 from '../assets/image/gallery-16.jpg'
 import gallery13 from '../assets/image/gallery-13.jpg'
 import demo from '../assets/image/demo1.jpeg'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 
@@ -191,8 +193,8 @@ export default function Home() {
         <section className='container-fluid mt-4 py-4'>
           <div className='row marriage-bg'>
             <div className='col-md-5 d-flex justify-content-center align-items-center'>
-              <div>
-                <h1 className='marriage-text'>
+              <div className=' data-aos="fade-up"'>
+                <h1 className='marriage-text '>
                   <span className='text-1 ' > ✨Smile</span> <br />
                   <span className='text-2'> Say</span> <br />
                   <span className='text-3'> It </span> <br />
@@ -213,7 +215,7 @@ export default function Home() {
               <div className="col-md-7 mt-5 px-5 py-5 text-center bg-2  " >
 
                 <div class="text-31">
-                  <h5 className='mt-3 '>Every Special Moment</h5>
+                  <h5 className='mt-3 '>Every Special Moments</h5>
                   <h3 className='heading5 mt-4'>Full Wedding Experience</h3>
                   <ul className='heading9 mt-3 py-3' style={{ listStyleType: "disc", textAlign: "left", color: "grey" }}>
                     <li className='heading4 mt-0'>Wedding</li>
@@ -248,13 +250,13 @@ export default function Home() {
                   {/* <img src={logo1} alt="" className='img-fluid w-50' /> */}
                 </div>
               </div>
-              <div className='col-md-3 text-center text-light heading4 foot'>
+              <div className='col-md-3 text-center text-light heading7 foot'>
                 <h3 style={{ color: ' #f7bc35' }}>Let's Talk</h3>
-                <p>xxx@gmail.com</p>
-                <p>xxxxx</p>
+                <h4>xxx@gmail.com</h4>
+                <h4>xxxxx xxxxx</h4>
               </div>
-              <div className='col-md-3 text-center text-light heading4 foot'>
-                <h3 className='pb-2' style={{ color: ' #f7bc35' }}>Quick Link</h3>
+              <div className='col-md-3 text-center text-light heading7 foot'>
+                <h3 className='pb-3' style={{ color: ' #f7bc35' }}>Quick Link</h3>
                 <p> Wedding</p>
                 <p>Pre-wedding Shoot</p>
                 <p>Baby Shower</p>
