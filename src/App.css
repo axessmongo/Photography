@@ -389,7 +389,35 @@
 .navbar-toggler i{
   color: #fff;
 }
+.buy-now-bt{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
 
+}
+.buy-now{
+  position: fixed;
+  z-index: 989898;
+  margin-left: 20px;
+  top: 75px;
+  animation: blink 2s 0s infinite;
+}
+.buy-now:hover{
+  transform: scale(1.1);
+}
+.linking {
+  cursor: pointer;
+}
+  
+  @keyframes blink{
+    0%,
+    100%{
+      background-color: #ce9206;
+    }
+    50%{
+      background-color: rgb(8, 80, 2);
+    }
+  }
 
 @media(max-width:767px) {
   .marriage-bg {

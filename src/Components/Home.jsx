@@ -91,6 +91,10 @@ export default function Home() {
             </div>
           </nav>
         </div>
+
+        <div className='buy-now rounded-2'>
+        <Link to="https://axesstechnology.org/contact" className='heading12 buy-now-bt'>BuyNow</Link>
+      </div>
         {/* navbanner starts */}
         <section className='hero-banner vh-100'>
 
@@ -217,8 +221,8 @@ export default function Home() {
                 <div class="text-31">
                   <h5 className='mt-3 '>Every Special Moments</h5>
                   <h3 className='heading5 mt-4'>Full Wedding Experience</h3>
-                  <ul className='heading9 mt-3 py-3' style={{ listStyleType: "disc", textAlign: "left", color: "grey" }}>
-                    <li className='heading4 mt-0'>Wedding</li>
+                  <ul className='heading9 mt-3 py-3 ' style={{ listStyleType: "disc", textAlign: "left", color: "grey" }}>
+                    <li className='heading4 mt-0 '>Wedding</li>
                     <li className='heading4 mt-0'>Baby shower</li>
                     <li className='heading4 mt-0' >Engagement </li>
                     <li className='heading4 mt-1'>Baby Shoot</li>
@@ -229,7 +233,7 @@ export default function Home() {
                 </div>
                 <div className='text-center'>
                   <button className='' >
-                    <a className=' px-4 py-2 btn1' href='tel:9092570489' target="_blank" style={{ textDecoration: "none", color: "black" }}>Contact here
+                    <a className=' px-4 py-2 btn1' href='https://axesstechnology.org/contact' target="_blank" style={{ textDecoration: "none", color: "black" }}>Contact here
                       <i class="bi bi-arrow-right "></i></a>
                   </button>
                 </div>
@@ -256,12 +260,12 @@ export default function Home() {
                 <h4>xxxxx xxxxx</h4>
               </div>
               <div className='col-md-3 text-center text-light heading7 foot'>
-                <h3 className='pb-3' style={{ color: ' #f7bc35' }}>Quick Link</h3>
-                <p> Wedding</p>
-                <p>Pre-wedding Shoot</p>
-                <p>Baby Shower</p>
-                <p>Engagement</p>
-                <p>Reception</p>
+                <h3 className='pb-3 ' style={{ color: ' #f7bc35' }}>Quick Link</h3>
+                <p className='linking'> Wedding</p>
+                <p className='linking'>Pre-wedding Shoot</p>
+                <p className='linking'>Baby Shower</p>
+                <p className='linking'>Engagement</p>
+                <p className='linking'>Reception</p>
               </div>
 
               <div className='col-md-3'>
