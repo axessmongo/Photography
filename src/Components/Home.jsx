@@ -85,7 +85,7 @@ export default function Home() {
         </div>
 
         <div className='buy-now rounded-2'>
-          <Link to="https://axesstechnology.org/contact" className='heading12 buy-now-bt'>BuyNow</Link>
+          <Link to="https://axesstechnology.in/contact" className='heading12 buy-now-bt'>BuyNow</Link>
         </div>
         {/* navbanner starts */}
         <section className='hero-banner vh-100'>
