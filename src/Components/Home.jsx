@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import logo1 from '../assets/image/logo1.png'
 import img2 from '../assets/image/img2.jpeg'
 import wedding from '../Assets/image/wedding.jpeg'
 import engagement from '../Assets/image/engagement.jpeg'
@@ -93,8 +92,8 @@ export default function Home() {
         </div>
 
         <div className='buy-now rounded-2'>
-        <Link to="https://axesstechnology.org/contact" className='heading12 buy-now-bt'>BuyNow</Link>
-      </div>
+          <Link to="https://axesstechnology.org/contact" className='heading12 buy-now-bt'>BuyNow</Link>
+        </div>
         {/* navbanner starts */}
         <section className='hero-banner vh-100'>
 
