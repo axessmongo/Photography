@@ -3,14 +3,9 @@ import { Link } from 'react-router-dom'
 import img2 from '../assets/image/img2.jpeg'
 import wedding from '../Assets/image/wedding.jpeg'
 import engagement from '../Assets/image/engagement.jpeg'
-import marriage1 from '../Assets/image/marriage-img-1.jpg'
-import marriage2 from '../Assets/image/marriage-img-2.jpg'
-import marriage3 from '../Assets/image/marriage-img-3.jpeg'
-import Collection2 from '../assets/image/collection2.jpeg'
-import footer2 from '../assets/image/footer2.jpeg'
+
 import baby1 from '../assets/image/babyshower.webp'
-import resort from '../assets/image/resort.jpg'
-import temple from '../assets/image/temple.png'
+
 import fb from '../Assets/image/fb.png'
 import insta from '../Assets/image/insta.png'
 import twitter from '../Assets/image/twitter.png'
@@ -19,7 +14,6 @@ import youtube from '../Assets/image/youtube.png'
 import gallerys1 from '../assets/image/gallery-16.jpg'
 import gallery13 from '../assets/image/gallery-13.jpg'
 import demo from '../assets/image/demo1.jpeg'
-import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 
