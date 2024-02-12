@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import img2 from "../assets/images/img2.jpeg"
-import wedding from '../assets/images/handpot.jpeg'
+import wedding from '../assets/images/marriage-img-2.jpg'
 import engagement from '../assets/images/engagement.jpeg'
 import baby1 from '../assets/images/babyshower.webp'
 
@@ -13,6 +13,7 @@ import youtube from '../assets/images/youtube.png'
 import gallerys1 from '../assets/images/gallery-16.jpg'
 import gallery13 from '../assets/images/gallery-13.jpg'
 import demo from '../assets/images/demo1.jpeg'
+import gallery17 from '../assets/images/gallery-17.jpg'
 import 'aos/dist/aos.css';
 
 
@@ -206,7 +207,7 @@ export default function Home() {
           <div className="container mt-4" id='packages'>
             <div className="row g-0">
               <div className="col-md-5 mt-5">
-                <img src={img2} alt="" className='img-fluid' />
+                <img src={gallery17} alt="" className='img-fluid' />
               </div>
               <div className="col-md-7 mt-5 px-5 py-5 text-center bg-2  " >
 
