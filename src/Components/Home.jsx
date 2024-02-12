@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import img2 from "../assets/images/img2.jpeg"
-import wedding from '../assets/images/marriage-img-2.jpg'
+// import wedding from '../assets/images/marriage-img-2.jpg'
+import photo from '../assets/images/photo.jfif'
 import engagement from '../assets/images/engagement.jpeg'
 import baby1 from '../assets/images/babyshower.webp'
 
@@ -126,9 +127,9 @@ export default function Home() {
           <div className='row d-flex justify-content-evenly py-3'>
             <div className='col-md-4 pt-4'>
               <div>
-                {/* <div className='p-2 border border-secondary'>
-                  <img src={wedding} alt="" className='img-fluid' />
-                </div> */}
+                <div className='p-2 border border-secondary'>
+                  <img src={photo} alt="" className='img-fluid' />
+                </div>
                 <div className='pt-4 text-center heading11'>
                   <h3>Wedding</h3>
                 </div>
