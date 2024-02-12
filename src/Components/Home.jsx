@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import img2 from "../assets/images/img2.jpeg"
-import wedding from '../assets/images/handpot.jpeg'
+// import wedding from '../assets/images/handpot.jpeg'
 import engagement from '../assets/image/engagement.jpeg'
 import baby1 from '../assets/image/babyshower.webp'
 
@@ -126,7 +126,7 @@ export default function Home() {
             <div className='col-md-4 pt-4'>
               <div>
                 <div className='p-2 border border-secondary'>
-                  <img src={wedding} alt="" className='img-fluid' />
+                  {/* <img src={wedding} alt="" className='img-fluid' /> */}
                 </div>
                 <div className='pt-4 text-center heading11'>
                   <h3>Wedding</h3>
