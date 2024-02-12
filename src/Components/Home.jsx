@@ -4,16 +4,16 @@ import img2 from "../assets/images/img2.jpeg"
 // import wedding from '../assets/images/marriage-img-2.jpg'
 // import photo from '../assets/images/photo.jfif'
 // import engagement from '../assets/images/engagement.jpeg'
-import baby1 from '../assets/images/babyshower.webp'
+// import baby1 from '../assets/images/babyshower.webp'
 
 import fb from '../assets/images/fb.png'
 import insta from '../assets/images/insta.png'
 import twitter from '../assets/images/twitter.png'
 import whatsapp from '../assets/images/whatsapp.png'
 import youtube from '../assets/images/youtube.png'
-import gallerys1 from '../assets/images/gallery-16.jpg'
-import gallery13 from '../assets/images/gallery-13.jpg'
-import demo from '../assets/images/demo1.jpeg'
+// import gallerys1 from '../assets/images/gallery-16.jpg'
+// import gallery13 from '../assets/images/gallery-13.jpg'
+// import demo from '../assets/images/demo1.jpeg'
 import gallery17 from '../assets/images/gallery-17.jpg'
 import 'aos/dist/aos.css';
 
