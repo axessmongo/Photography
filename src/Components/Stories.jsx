@@ -1,5 +1,5 @@
 import React from 'react'
-import cmp1 from '../assets/images/cmp1.png'
+// import cmp1 from '../assets/images/cmp1.png'
 // import cmp3 from '../assets/images/cmp3.jpg'
 // import img1 from '../assets/images/img1.jpg'
 import video1 from '../assets/images/video1.mp4'
@@ -87,7 +87,7 @@ export default function Stories() {
 
                         <div className='col-md-6'>
                             <div className='text-center'>
-                                <img src={cmp1} alt="" className='img-fluid  img3' />
+                                {/* <img src={cmp1} alt="" className='img-fluid  img3' /> */}
                             </div>
                         </div>
 
