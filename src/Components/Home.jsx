@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import img2 from '../Assets/images/img2.jpeg'
+// import img2 from '../Assets/images/img2.jpeg'
 import Moments from './Moments';
 import Marriage from './Marriage';
 import 'aos/dist/aos.css';
@@ -89,7 +89,7 @@ export default function Home() {
           <div className="container-fluid">
             <div className="row align-items-center justify-content-center ">
               <div className="col-xxl-4 col-lg-5 col-md-6 text-center disp">
-                <img src={img2} alt="" className='img-fluid givenheight' />
+                {/* <img src={img2} alt="" className='img-fluid givenheight' /> */}
 
               </div>
               <div className="col-xxl-4 col-lg-5 col-md-6 about">
