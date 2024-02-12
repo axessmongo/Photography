@@ -1,18 +1,18 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import img2 from "../assets/images/img2.jpeg"
-// import wedding from '../assets/images/handpot.jpeg'
-import engagement from '../assets/image/engagement.jpeg'
-import baby1 from '../assets/image/babyshower.webp'
+import wedding from '../assets/images/handpot.jpeg'
+import engagement from '../assets/images/engagement.jpeg'
+import baby1 from '../assets/images/babyshower.webp'
 
-import fb from '../assets/image/fb.png'
-import insta from '../assets/image/insta.png'
-import twitter from '../assets/image/twitter.png'
-import whatsapp from '../assets/image/whatsapp.png'
-import youtube from '../assets/image/youtube.png'
-import gallerys1 from '../assets/image/gallery-16.jpg'
-import gallery13 from '../assets/image/gallery-13.jpg'
-import demo from '../assets/image/demo1.jpeg'
+import fb from '../assets/images/fb.png'
+import insta from '../assets/images/insta.png'
+import twitter from '../assets/images/twitter.png'
+import whatsapp from '../assets/images/whatsapp.png'
+import youtube from '../assets/images/youtube.png'
+import gallerys1 from '../assets/images/gallery-16.jpg'
+import gallery13 from '../assets/images/gallery-13.jpg'
+import demo from '../assets/images/demo1.jpeg'
 import 'aos/dist/aos.css';
 
 
@@ -126,7 +126,7 @@ export default function Home() {
             <div className='col-md-4 pt-4'>
               <div>
                 <div className='p-2 border border-secondary'>
-                  {/* <img src={wedding} alt="" className='img-fluid' /> */}
+                  <img src={wedding} alt="" className='img-fluid' />
                 </div>
                 <div className='pt-4 text-center heading11'>
                   <h3>Wedding</h3>

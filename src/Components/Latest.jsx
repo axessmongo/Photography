@@ -1,5 +1,5 @@
 import React from 'react'
-import collection1 from '../assets/image/collection1.jpeg'
+import collection1 from '../assets/images/collection1.jpeg'
 
 export default function Latest() {
     return (

@@ -305,13 +305,13 @@
 }
 
 .back-logo {
-  background: url('./assets/image/back-logo2.avif');
+  background: url('./assets/images/back-logo2.avif');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .marriage-bg {
-  background-image: url(./Assets/image/marriage-bg.jpeg);
+  background-image: url('./assets/images/marriage-bg.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -341,7 +341,7 @@
 }
 
 .gallery-bg {
-  background-image: url(./Assets/image/footer2.jpeg);
+  background-image: url('./assets/images/footer2.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -349,34 +349,34 @@
 }
 
 .gallery-st-bg {
-  background-image: url(./Assets/image/gallery-bg-2.jpg);
+  background-image: url('./assets/images/gallery-bg-2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .gallery-md-bg {
-  background-image: url(./Assets/image/gallery-end-bg.avif);
+  background-image: url('./assets/images/gallery-end-bg.avif');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .gallery-end-bg {
-  background-image: url(./Assets/image/gallery-end-bg-1.jpg);
+  background-image: url('./assets/images/gallery-end-bg-1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 .footer-bg{
-    background-image: url(./Assets/image/footer-bg-img.jpg);
+    background-image: url('./assets/images/footer-bg-img.jpg');
     background-repeat: no-repeat;
     background-size:cover;
     background-position:center;
 }
 
 .footer-bg {
-  background-image: url(./Assets/image/footer-bg-img.jpg);
+  background-image: url('./assets/images/footer-bg-img.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
