@@ -119,74 +119,7 @@ export default function Home() {
           </div>
         </section>
         {/* moments starts */}
-        <section className='container' id='about'>
-          <div className='text-center pt-3 text-31'>
-            <h5 className='mt-4'>Moments</h5>
-            <h3 className='heading10 mt-3'>What We Do</h3>
-          </div>
-          <div className='row d-flex justify-content-evenly py-3'>
-            <div className='col-md-4 pt-4'>
-              <div>
-                {/* <div className='p-2 border border-secondary'>
-                  <img src={photo} alt="" className='img-fluid' />
-                </div> */}
-                <div className='pt-4 text-center heading11'>
-                  <h3>Wedding</h3>
-                </div>
-              </div>
-            </div>
-            <div className='col-md-4 pt-4'>
-              <div>
-                <div className='p-2 border border-secondary'>
-                  {/* <img src={engagement} alt="" className='img-fluid' /> */}
-                </div>
-                <div className='pt-4 text-center heading11'>
-                  <h3>Engagement</h3>
-                </div>
-              </div>
-            </div>
-            <div className='col-md-4 pt-4'>
-              <div>
-                <div className='p-2 border border-secondary'>
-                  <img src={gallery13} alt="" className='img-fluid' />
-                </div>
-                <div className='pt-4 text-center heading11'>
-                  <h3>Baby Shower</h3>
-                </div>
-              </div>
-            </div>
-            <div className='col-md-4 pt-4 mt-4 '>
-              <div>
-                <div className='p-2 border border-secondary'>
-                  <img src={baby1} alt="" className='img-fluid' />
-                </div>
-                <div className='pt-4 text-center heading11'>
-                  <h3>Babymoon Bash</h3>
-                </div>
-              </div>
-            </div>
-            <div className='col-md-4 pt-4 mt-4'>
-              <div>
-                <div className='p-2 border border-secondary'>
-                  <img src={demo} alt="" className='img-fluid' />
-                </div>
-                <div className='pt-4 text-center heading11'>
-                  <h3>Candid</h3>
-                </div>
-              </div>
-            </div>
-            <div className='col-md-4 pt-4  mt-4'>
-              <div>
-                <div className='p-2 border border-secondary'>
-                  <img src={gallerys1} alt="" className='img-fluid' />
-                </div>
-                <div className='pt-4 text-center heading11'>
-                  <h3> Resort</h3>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+        
         {/* marriage starts */}
         <section className='container-fluid mt-4 py-4'>
           <div className='row marriage-bg'>
