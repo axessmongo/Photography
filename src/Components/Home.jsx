@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import img2 from "../assets/images/img2.jpeg"
 // import wedding from '../assets/images/marriage-img-2.jpg'
 // import photo from '../assets/images/photo.jfif'
-import engagement from '../assets/images/engagement.jpeg'
+// import engagement from '../assets/images/engagement.jpeg'
 import baby1 from '../assets/images/babyshower.webp'
 
 import fb from '../assets/images/fb.png'
@@ -138,7 +138,7 @@ export default function Home() {
             <div className='col-md-4 pt-4'>
               <div>
                 <div className='p-2 border border-secondary'>
-                  <img src={engagement} alt="" className='img-fluid' />
+                  {/* <img src={engagement} alt="" className='img-fluid' /> */}
                 </div>
                 <div className='pt-4 text-center heading11'>
                   <h3>Engagement</h3>
