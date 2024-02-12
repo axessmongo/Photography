@@ -1,7 +1,7 @@
 import React from 'react'
-import marriage1 from '../Assets/image/marriage-img-1.jpg'
-import marriage2 from '../Assets/image/marriage-img-2.jpg'
-import marriage3 from '../Assets/image/marriage-img-3.jpeg'
+// import marriage1 from '../Assets/image/marriage-img-1.jpg'
+// import marriage2 from '../Assets/image/marriage-img-2.jpg'
+// import marriage3 from '../Assets/image/marriage-img-3.jpeg'
 
 function Marriage() {
     return (

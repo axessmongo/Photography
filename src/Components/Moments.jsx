@@ -1,7 +1,7 @@
 import React from 'react'
 import wedding from '../Assets/images/wedding.jpeg'
 import engagement from '../Assets/images/engagement.jpeg'
-import lifestyle from '../Assets/images/lifestyle.jpeg'
+// import lifestyle from '../Assets/images/lifestyle.jpeg'
 import { Link } from 'react-router-dom'
 
 
@@ -65,7 +65,7 @@ function Moments() {
             <div className='col-md-4 pt-4'>
                 <div>
                     <div className='p-2 border border-secondary'>
-                        <img src={lifestyle} alt="" className='img-fluid' />
+                        {/* <img src={lifestyle} alt="" className='img-fluid' /> */}
                     </div>
                     <div className='pt-4 text-center'>
                         <h3>Life Style</h3>
@@ -95,7 +95,7 @@ function Moments() {
             <div className='col-md-4 pt-4'>
                 <div>
                     <div className='p-2 border border-secondary'>
-                        <img src={lifestyle} alt="" className='img-fluid' />
+                        {/* <img src={lifestyle} alt="" className='img-fluid' /> */}
                     </div>
                     <div className='pt-4 text-center'>
                         <h3>Life Style</h3>
