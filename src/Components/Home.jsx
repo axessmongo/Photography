@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import img2 from '../assets/image/img2.jpeg'
+import img2 from "../assets/image/candid.jpeg"
 import wedding from '../assets/image/wedding.jpeg'
 import engagement from '../assets/image/engagement.jpeg'
 import baby1 from '../assets/image/babyshower.webp'
@@ -85,7 +85,7 @@ export default function Home() {
         </div>
 
         <div className='buy-now rounded-2'>
-          <Link to="https://axesstechnology.in/contact" className='heading12 buy-now-bt'>BuyNow</Link>
+          <Link to="https://axesstechnology.in/contact" target='_blank' className='heading12 buy-now-bt'>BuyNow</Link>
         </div>
         {/* navbanner starts */}
         <section className='hero-banner vh-100'>
