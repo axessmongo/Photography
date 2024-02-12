@@ -1,16 +1,16 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import img2 from "../assets/images/img2.jpeg"
-// import wedding from '../assets/images/marriage-img-2.jpg'
+// // import wedding from '../assets/images/marriage-img-2.jpg'
 // import photo from '../assets/images/photo.jfif'
 // import engagement from '../assets/images/engagement.jpeg'
 // import baby1 from '../assets/images/babyshower.webp'
 
-import fb from '../assets/images/fb.png'
-import insta from '../assets/images/insta.png'
-import twitter from '../assets/images/twitter.png'
-import whatsapp from '../assets/images/whatsapp.png'
-import youtube from '../assets/images/youtube.png'
+// import fb from '../assets/images/fb.png'
+// import insta from '../assets/images/insta.png'
+// import twitter from '../assets/images/twitter.png'
+// import whatsapp from '../assets/images/whatsapp.png'
+// import youtube from '../assets/images/youtube.png'
 // import gallerys1 from '../assets/images/gallery-16.jpg'
 // import gallery13 from '../assets/images/gallery-13.jpg'
 // import demo from '../assets/images/demo1.jpeg'
@@ -119,7 +119,7 @@ export default function Home() {
           </div>
         </section>
         {/* moments starts */}
-        
+       
         {/* marriage starts */}
         <section className='container-fluid mt-4 py-4'>
           <div className='row marriage-bg'>
@@ -173,47 +173,7 @@ export default function Home() {
           </div>
         </section>
         {/* footer starts */}
-        <section className='py-3' id='contact'>
-          <div className='footer-bg py-3'>
-            <div className='row d-flex justify-content-center align-items-center'>
-              <div className='col-md-3 '>
-                <div className='text-center'>
-                  {/* <img src={logo1} alt="" className='img-fluid w-50' /> */}
-                </div>
-              </div>
-              <div className='col-md-3 text-center text-light heading7 foot'>
-                <h3 style={{ color: ' #f7bc35' }}>Let's Talk</h3>
-                <h4>xxx@gmail.com</h4>
-                <h4>xxxxx xxxxx</h4>
-              </div>
-              <div className='col-md-3 text-center text-light heading7 foot'>
-                <h3 className='pb-3 ' style={{ color: ' #f7bc35' }}>Quick Link</h3>
-                <p className='linking'> Wedding</p>
-                <p className='linking'>Pre-wedding Shoot</p>
-                <p className='linking'>Baby Shower</p>
-                <p className='linking'>Engagement</p>
-                <p className='linking'>Reception</p>
-              </div>
-
-              <div className='col-md-3'>
-                <div className=' text-center'>
-
-                  <img src={fb} alt="" className='img-fluid footer-icon' />
-
-                  <img src={insta} alt="" className='img-fluid footer-icon' />
-
-                  <img src={twitter} alt="" className='img-fluid footer-icon' />
-
-                  <img src={whatsapp} alt="" className='img-fluid footer-icon' />
-
-                  <img src={youtube} alt="" className='img-fluid footer-icon' />
-
-                </div>
-
-              </div>
-            </div>
-          </div>
-        </section>
+       
 
 
       </section>
