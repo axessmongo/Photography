@@ -7,7 +7,7 @@ import gallert7 from '../assets/images/gallery-7.jpg'
 import gallert8 from '../assets/images/gallery-8.jpg'
 import gallery16 from '../assets/images/gallery-16.jpg'
 import gallery19 from '../assets/images/gallery-19.jpg'
-import gallery4 from '../assets/images/gallery-4.png'
+// import gallery4 from '../assets/images/gallery-4.png'
 import gallery9 from '../assets/images/gallery-9.jpg'
 import gallery11 from '../assets/images/gallery-11.jpg'
 import marriage1 from '../assets/images/marriage-img-1.jpg'
@@ -110,7 +110,7 @@ function Gallery() {
                         <div className='col-md-5'>
                             <div className='text-end'>
                                <div className='' data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">  
-                               <img src={gallery4} alt="" className='img-fluid w-75 border border-5 p-1' />
+                               {/* <img src={gallery4} alt="" className='img-fluid w-75 border border-5 p-1' /> */}
                                </div>
                             </div>
                             <div className='pt-3 mb-3'>
