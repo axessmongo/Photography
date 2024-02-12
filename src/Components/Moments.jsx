@@ -1,7 +1,7 @@
 import React from 'react'
-import wedding from '../Assets/image/wedding.jpeg'
-import engagement from '../Assets/image/engagement.jpeg'
-import lifestyle from '../Assets/image/lifestyle.jpeg'
+import wedding from '../Assets/images/wedding.jpeg'
+import engagement from '../Assets/images/engagement.jpeg'
+import lifestyle from '../Assets/images/lifestyle.jpeg'
 import { Link } from 'react-router-dom'
 
 

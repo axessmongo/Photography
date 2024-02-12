@@ -1,12 +1,12 @@
 import React from 'react'
-import cmp1 from '../assets/images/cmp1.png'
-import cmp3 from '../assets/images/cmp3.jpg'
+// import cmp1 from '../assets/images/cmp1.png'
+// import cmp3 from '../assets/images/cmp3.jpg'
 // import img1 from '../assets/images/img1.jpg'
 import video1 from '../assets/images/video1.mp4'
 import video2 from '../assets/images/video2.mp4'
-import temple from '../assets/image/temple.png'
+import temple from '../assets/images/temple.png'
 import events from '../assets/images/events.jpg'
-import collection1 from '../assets/image/collection1.jpeg'
+import collection1 from '../assets/images/collection1.jpeg'
 import { Link } from 'react-router-dom'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -91,7 +91,7 @@ export default function Stories() {
 
                         <div className='col-md-6'>
                             <div className='text-center'>
-                                <img src={cmp1} alt="" className='img-fluid  img3' />
+                                {/* <img src={cmp1} alt="" className='img-fluid  img3' /> */}
                             </div>
                         </div>
 
