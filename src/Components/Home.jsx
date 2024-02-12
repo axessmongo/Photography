@@ -126,9 +126,9 @@ export default function Home() {
           <div className='row d-flex justify-content-evenly py-3'>
             <div className='col-md-4 pt-4'>
               <div>
-                <div className='p-2 border border-secondary'>
+                {/* <div className='p-2 border border-secondary'>
                   <img src={wedding} alt="" className='img-fluid' />
-                </div>
+                </div> */}
                 <div className='pt-4 text-center heading11'>
                   <h3>Wedding</h3>
                 </div>
