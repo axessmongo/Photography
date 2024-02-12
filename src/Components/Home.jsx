@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import img2 from "../assets/images/img2.jpeg"
-import wedding from '../assets/images/wedding.jpeg'
+import wedding from '../assets/images/handpot.jpeg'
 import engagement from '../assets/image/engagement.jpeg'
 import baby1 from '../assets/image/babyshower.webp'
 
