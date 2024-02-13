@@ -1,6 +1,6 @@
 import React from 'react'
-import Collection2 from '../assets/images/collection2.jpeg'
-import footer2 from '../assets/images/footer2.jpeg'
+import Collection2 from '../Assets/images/collection2.jpeg'
+import footer2 from '../Assets/images/footer2.jpeg'
 
 export default function Collection() {
     return (

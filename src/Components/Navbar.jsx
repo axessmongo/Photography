@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import logo1 from '../assets/images/logo1.png'
-import img2 from '../assets/images/img2.jpeg'
+import logo1 from '../Assets/images/logo1.png'
+import img2 from '../Assets/images/img2.jpeg'
 
 function Navbar() {
 
