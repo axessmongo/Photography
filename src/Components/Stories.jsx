@@ -1,15 +1,15 @@
 import React from 'react'
-// import cmp1 from '../assets/images/cmp1.png'
-// import cmp3 from '../assets/images/cmp3.jpg'
+import cmp1 from '../assets/images/cmp1.png'
+import cmp3 from '../assets/images/cmp3.jpg'
 // import img1 from '../assets/images/img1.jpg'
-import video1 from '../assets/images/video1.mp4'
+import videos from '../assets/images/video1.mp4'
 import video2 from '../assets/images/video2.mp4'
 import temple from '../assets/images/temple.png'
 import events from '../assets/images/events.jpg'
 import collection1 from '../assets/images/collection1.jpeg'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import AOS from 'aos';
-import 'aos/dist/aos.css';
+import 'aos/dist/aos.css';  
 
 
 export default function Stories() {
@@ -46,6 +46,7 @@ export default function Stories() {
 
     return (
         <div className='overflow-hidden'>
+            
             <nav className="navbar navbar-expand-lg nav-banner  p-0 z-3" id='home' style={{ backgroundColor: '#060525' }}>
                 <div className="container-fluid">
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,12 +56,15 @@ export default function Stories() {
                         <ul className="navbar-nav mx-auto mb-3 p-2 mb-lg-0 text-center">
 
                             <li className="nav-item heading7">
-                                <Link className="nav-link active px-3 text1" aria-current="page" id='name-nav' to="/">Home</Link>
+                                <a className="nav-link active px-3 text1" aria-current="page" id='name-nav' href="/">Home</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
+              <div className='buy-now rounded-2'>
+        <a href="" className='heading12 buy-now-bt'>BuyNow </a>
+      </div>
             <section className='bg-light back-logo'>
                 <div className='text-center pt-3 mt-4' >
                     <h5 className='mt-5' style={{ color: "rgb(241 178 134)", }}>OUR  STORIES</h5>
@@ -70,7 +74,7 @@ export default function Stories() {
                     <div className='row py-2 my-2 mt-5 align-items-center g-4'>
                         <div className="col-md-6">
 
-                            <video src={video1} autoPlay loop muted className='w-100 img3'></video>
+                            <video src={videos} autoPlay loop muted className='w-100 img3'></video>
                         </div>
                         <div className="col-md-6 text-center">
                             <h1 className='heading0 ' style={{ color: "rgb(241 178 134)", fontSize: "50px" }} data-aos="fade-up">Wedding</h1>
@@ -87,7 +91,7 @@ export default function Stories() {
 
                         <div className='col-md-6'>
                             <div className='text-center'>
-                                {/* <img src={cmp1} alt="" className='img-fluid  img3' /> */}
+                                <img src={cmp1} alt="" className='img-fluid  img3' />
                             </div>
                         </div>
 

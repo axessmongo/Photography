@@ -1,20 +1,19 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import img2 from "../assets/images/img2.jpeg"
-// // import wedding from '../assets/images/marriage-img-2.jpg'
-// import photo from '../assets/images/photo.jfif'
-// import engagement from '../assets/images/engagement.jpeg'
-// import baby1 from '../assets/images/babyshower.webp'
+import wedding from '../assets/images/handpot.jpeg'
+import engagement from '../assets/images/engagement.jpeg'
+import baby1 from '../assets/images/babyshower.webp'
 
-// import fb from '../assets/images/fb.png'
-// import insta from '../assets/images/insta.png'
-// import twitter from '../assets/images/twitter.png'
-// import whatsapp from '../assets/images/whatsapp.png'
-// import youtube from '../assets/images/youtube.png'
-// import gallerys1 from '../assets/images/gallery-16.jpg'
-// import gallery13 from '../assets/images/gallery-13.jpg'
-// import demo from '../assets/images/demo1.jpeg'
-// import gallery17 from '../assets/images/gallery-17.jpg'
+import fb from '../assets/images/fb.png'
+import insta from '../assets/images/insta.png'
+import twitter from '../assets/images/twitter.png'
+import whatsapp from '../assets/images/whatsapp.png'
+import youtube from '../assets/images/youtube.png'
+import gallerys1 from '../assets/images/gallery-16.jpg'
+import gallery13 from '../assets/images/gallery-13.jpg'
+import demo from '../assets/images/demo1.jpeg'
+import gallery17 from '../assets/images/gallery-17.jpg'
 import 'aos/dist/aos.css';
 
 
@@ -119,7 +118,74 @@ export default function Home() {
           </div>
         </section>
         {/* moments starts */}
-       
+        <section className='container' id='about'>
+          <div className='text-center pt-3 text-31'>
+            <h5 className='mt-4'>Moments</h5>
+            <h3 className='heading10 mt-3'>What We Do</h3>
+          </div>
+          <div className='row d-flex justify-content-evenly py-3'>
+            <div className='col-md-4 pt-4'>
+              <div>
+                <div className='p-2 border border-secondary'>
+                  <img src={wedding} alt="" className='img-fluid' />
+                </div>
+                <div className='pt-4 text-center heading11'>
+                  <h3>Wedding</h3>
+                </div>
+              </div>
+            </div>
+            <div className='col-md-4 pt-4'>
+              <div>
+                <div className='p-2 border border-secondary'>
+                  <img src={engagement} alt="" className='img-fluid' />
+                </div>
+                <div className='pt-4 text-center heading11'>
+                  <h3>Engagement</h3>
+                </div>
+              </div>
+            </div>
+            <div className='col-md-4 pt-4'>
+              <div>
+                <div className='p-2 border border-secondary'>
+                  <img src={gallery13} alt="" className='img-fluid' />
+                </div>
+                <div className='pt-4 text-center heading11'>
+                  <h3>Baby Shower</h3>
+                </div>
+              </div>
+            </div>
+            <div className='col-md-4 pt-4 mt-4 '>
+              <div>
+                <div className='p-2 border border-secondary'>
+                  <img src={baby1} alt="" className='img-fluid' />
+                </div>
+                <div className='pt-4 text-center heading11'>
+                  <h3>Babymoon Bash</h3>
+                </div>
+              </div>
+            </div>
+            <div className='col-md-4 pt-4 mt-4'>
+              <div>
+                <div className='p-2 border border-secondary'>
+                  <img src={demo} alt="" className='img-fluid' />
+                </div>
+                <div className='pt-4 text-center heading11'>
+                  <h3>Candid</h3>
+                </div>
+              </div>
+            </div>
+            <div className='col-md-4 pt-4  mt-4'>
+              <div>
+                <div className='p-2 border border-secondary'>
+                  <img src={gallerys1} alt="" className='img-fluid' />
+                </div>
+                <div className='pt-4 text-center heading11'>
+                  <h3> Resort</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
         {/* marriage starts */}
         <section className='container-fluid mt-4 py-4'>
           <div className='row marriage-bg'>
@@ -141,7 +207,7 @@ export default function Home() {
           <div className="container mt-4" id='packages'>
             <div className="row g-0">
               <div className="col-md-5 mt-5">
-                {/* <img src={gallery17} alt="" className='img-fluid' /> */}
+                <img src={gallery17} alt="" className='img-fluid' />
               </div>
               <div className="col-md-7 mt-5 px-5 py-5 text-center bg-2  " >
 
@@ -173,7 +239,47 @@ export default function Home() {
           </div>
         </section>
         {/* footer starts */}
-       
+        <section className='py-3' id='contact'>
+          <div className='footer-bg py-3'>
+            <div className='row d-flex justify-content-center align-items-center'>
+              <div className='col-md-3 '>
+                <div className='text-center'>
+                  {/* <img src={logo1} alt="" className='img-fluid w-50' /> */}
+                </div>
+              </div>
+              <div className='col-md-3 text-center text-light heading7 foot'>
+                <h3 style={{ color: ' #f7bc35' }}>Let's Talk</h3>
+                <h4>xxx@gmail.com</h4>
+                <h4>xxxxx xxxxx</h4>
+              </div>
+              <div className='col-md-3 text-center text-light heading7 foot'>
+                <h3 className='pb-3 ' style={{ color: ' #f7bc35' }}>Quick Link</h3>
+                <p className='linking'> Wedding</p>
+                <p className='linking'>Pre-wedding Shoot</p>
+                <p className='linking'>Baby Shower</p>
+                <p className='linking'>Engagement</p>
+                <p className='linking'>Reception</p>
+              </div>
+
+              <div className='col-md-3'>
+                <div className=' text-center'>
+
+                  <img src={fb} alt="" className='img-fluid footer-icon' />
+
+                  <img src={insta} alt="" className='img-fluid footer-icon' />
+
+                  <img src={twitter} alt="" className='img-fluid footer-icon' />
+
+                  <img src={whatsapp} alt="" className='img-fluid footer-icon' />
+
+                  <img src={youtube} alt="" className='img-fluid footer-icon' />
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </section>
 
 
       </section>
