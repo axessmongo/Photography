@@ -128,11 +128,28 @@
   font-size: 29px;
   line-height: 1.5em
 }
+.buy-now-bt{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+
+}
+.buy-now{
+  position: fixed;
+  z-index: 989898;
+  margin-left: 20px;
+  top: 75px;
+  animation: blink 2s 0s infinite;
+}
+.buy-now:hover{
+  transform: scale(1.1);
+}
+
 
 #home {
   position: fixed;
   width: 100%;
-  top: 0;
+  top: 0px;
   z-index: 98765;
 }
 
@@ -434,3 +451,14 @@
     }
   
   }
+  
+  @keyframes blink{
+    0%,
+    100%{
+      background-color: #ce9206;
+    }
+    50%{
+      background-color: rgb(8, 80, 2);
+    }
+  }
+ 

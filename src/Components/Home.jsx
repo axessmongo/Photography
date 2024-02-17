@@ -1,20 +1,17 @@
-import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
-import img2 from "../assets/images/img2.jpeg"
-import wedding from '../assets/images/handpot.jpeg'
+import React, { useState } from "react";
+import img2 from '../assets/images/img2.png'
 import engagement from '../assets/images/engagement.jpeg'
-import baby1 from '../assets/images/babyshower.webp'
-
+import wedding from '../assets/images/wedding.jpeg'
+import gallery13 from '../assets/images/gallery-13.jpg'
+import baby1 from '../assets/images/babyshower.png'
+import demo from '../assets/images/demo1.jpeg'
+import gallerys1 from '../assets/images/marriage-img-2.jpg'
+import gallery17 from '../assets/images/gallery-17.jpg'
 import fb from '../assets/images/fb.png'
 import insta from '../assets/images/insta.png'
 import twitter from '../assets/images/twitter.png'
 import whatsapp from '../assets/images/whatsapp.png'
 import youtube from '../assets/images/youtube.png'
-import gallerys1 from '../assets/images/gallery-16.jpg'
-import gallery13 from '../assets/images/gallery-13.jpg'
-import demo from '../assets/images/demo1.jpeg'
-import gallery17 from '../assets/images/gallery-17.jpg'
-import 'aos/dist/aos.css';
 
 
 
@@ -50,6 +47,7 @@ export default function Home() {
 
   return (
     <div className='overflow-hidden '>
+
       <section>
         {/* navbar starts */}
         <div id='home'>
@@ -62,31 +60,33 @@ export default function Home() {
               <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav mx-auto mb-3 p-2 mb-lg-0 text-center">
                   <li className="nav-item heading7">
-                    <Link className="nav-link active px-3 text1" aria-current="page" id='name-nav' onClick={() => gotoTop('home')}>Home</Link>
+                    <a className="nav-link active px-3 text1" aria-current="page" id='name-nav'>Home</a>
                   </li>
                   <li className="nav-item heading7">
-                    <Link className="nav-link active px-3 text1" aria-current="page" id='name-nav' onClick={() => gotoTop('about')}>About</Link>
+                    <a className="nav-link active px-3 text1" aria-current="page" id='name-nav' onClick={() => gotoTop('about')}>About</a>
                   </li>
                   <li className="nav-item heading7">
-                    <Link className="nav-link active px-3 text1" aria-current="page" id='name-nav' onClick={() => gotoTop('moments')} to="galler">Moments</Link>
+                    <a className="nav-link active px-3 text1" aria-current="page" id='name-nav' onClick={() => gotoTop('moments')} href="galler">Moments</a>
+                  </li>
+                  <li>
+                    <h1 className=' heading5 text-light'>logo</h1>
                   </li>
                   <li class="nav-item heading7">
-                    <Link class="nav-link active px-3 text1" aria-current="page" id='name-nav' onClick={() => gotoTop('packages')}>Packages</Link>
+                    <a class="nav-link active px-3 text1" aria-current="page" id='name-nav' onClick={() => gotoTop('packages')}>Packages</a>
                   </li>
                   <li className="nav-item heading7">
-                    <Link className="nav-link active px-3 text1" aria-current="page" id='name-nav' onClick={() => gotoTop('stories')} to="stories">Stories</Link>
+                    <a className="nav-link active px-3 text1" aria-current="page" id='name-nav' onClick={() => gotoTop('stories')} href="stories">Stories</a>
                   </li>
                   <li className="nav-item heading7">
-                    <Link className="nav-link active px-3 text1" aria-current="page" id='name-nav' onClick={() => gotoTop('contact')}>Contact</Link>
+                    <a className="nav-link active px-3 text1" aria-current="page" id='name-nav' onClick={() => gotoTop('contact')}>Contact</a>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
         </div>
-
         <div className='buy-now rounded-2'>
-          <Link to="https://axesstechnology.in/contact" target='_blank' className='heading12 buy-now-bt'>BuyNow</Link>
+          <a href="" className='heading12 buy-now-bt'>BuyNow</a>
         </div>
         {/* navbanner starts */}
         <section className='hero-banner vh-100'>
@@ -208,14 +208,15 @@ export default function Home() {
             <div className="row g-0">
               <div className="col-md-5 mt-5">
                 <img src={gallery17} alt="" className='img-fluid' />
+                {/* <img src={img2} alt="" className='img-fluid' /> */}
               </div>
               <div className="col-md-7 mt-5 px-5 py-5 text-center bg-2  " >
 
                 <div class="text-31">
                   <h5 className='mt-3 '>Every Special Moments</h5>
                   <h3 className='heading5 mt-4'>Full Wedding Experience</h3>
-                  <ul className='heading9 mt-3 py-3 ' style={{ listStyleType: "disc", textAlign: "left", color: "grey" }}>
-                    <li className='heading4 mt-0 '>Wedding</li>
+                  <ul className='heading9 mt-3 py-3' style={{ listStyleType: "disc", textAlign: "left", color: "grey" }}>
+                    <li className='heading4 mt-0'>Wedding</li>
                     <li className='heading4 mt-0'>Baby shower</li>
                     <li className='heading4 mt-0' >Engagement </li>
                     <li className='heading4 mt-1'>Baby Shoot</li>
@@ -226,7 +227,7 @@ export default function Home() {
                 </div>
                 <div className='text-center'>
                   <button className='' >
-                    <a className=' px-4 py-2 btn1' href='https://axesstechnology.org/contact' target="_blank" style={{ textDecoration: "none", color: "black" }}>Contact here
+                    <a className=' px-4 py-2 btn1' href='tel:9092570489' target="_blank" style={{ textDecoration: "none", color: "black" }}>Contact here
                       <i class="bi bi-arrow-right "></i></a>
                   </button>
                 </div>
@@ -243,9 +244,9 @@ export default function Home() {
           <div className='footer-bg py-3'>
             <div className='row d-flex justify-content-center align-items-center'>
               <div className='col-md-3 '>
-                <div className='text-center'>
-                  {/* <img src={logo1} alt="" className='img-fluid w-50' /> */}
-                </div>
+                {/* <div className='text-center'>
+                  <img src={logo1} alt="" className='img-fluid w-50' />
+                </div> */}
               </div>
               <div className='col-md-3 text-center text-light heading7 foot'>
                 <h3 style={{ color: ' #f7bc35' }}>Let's Talk</h3>
@@ -286,3 +287,4 @@ export default function Home() {
     </div>
   )
 }
+

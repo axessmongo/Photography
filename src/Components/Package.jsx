@@ -1,5 +1,5 @@
 import React from 'react'
-import img2 from '../assets/images/img2.jpeg'
+import img2 from '../Assets/images/img2.jpeg'
 
 export default function Package() {
     return (
